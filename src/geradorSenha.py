@@ -2,7 +2,7 @@
 import random
 import os
 
-# Grupo dos caracteres que serão usado para formar a senha
+# Grupo dos caracteres que serão usados para formar a senha
 minus = 'abcdefghijklmnopqrstuvwxyz'
 maius = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 numeros = '0123456789'
@@ -45,6 +45,7 @@ def notasupdate():
     print("-Agora o programa processa simbolos especiais.")
     print("-Alguns aspectos da mecanica foram melhorados.")
 
+# Função para sair do código
 def saircod():
     aperte = input("Digite " + "\033[31m" +
                    'sair' + "\033[0;0m" + " para fechar: ")
